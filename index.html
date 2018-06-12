@@ -281,7 +281,7 @@
 			$.ajax({
 				type: "GET",
 				// Connect to omdb api
-				url: "http://www.omdbapi.com/?i="+id+"&apikey=132e68f8,
+				url: "http://www.omdbapi.com/?i="+id+"&apikey=132e68f8",
 				dataType: "json",
 				success: function(data) {  
 					$('.carousel-inner').append('<div class="carousel-item"><img class="slide-img" src="'+data.Poster+'"><div class="container"><div class="carousel-caption text-left"><div class="row movie-information"><div class="col-sm-12 col-md-3"><img src="'+data.Poster+'" class="img-fluid"></div><div class="col col-md-9"><h1 class="title-film">'+data.Title+'</h1><div class="tags"><span class="genre"><i class="fas fa-film"></i> '+data.Genre+'</span><span class="year"><i class="far fa-calendar-alt"></i> '+data.Year+'</span><span class="runtime"><i class="far fa-clock"></i> '+data.Runtime+'</span></div><div class="tags"><span class="country"><i class="fas fa-globe"></i> '+data.Country+'</span><span class="language"><i class="fas fa-comments"></i> '+data.Language+'</span><span class="actors"><i class="fas fa-users"></i> '+data.Actors+'</span></div><p class="movie-plot">'+data.Plot+'</p><p><a class="btn btn-md btn-warning" href="movie-content.html" role="button"><i class="fas fa-search"></i> Ver informações</a></p></div></div></div></div></div>');
