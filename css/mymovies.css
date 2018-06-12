@@ -48,8 +48,11 @@ header .logo {
 .new-releases h2.section {
     font-weight: 600;
     font-size: 2rem;
-    margin-bottom: 2rem;
     color:#feba21;
+}
+.new-releases p.section-p {
+    font-size: 1rem;
+	margin-bottom: 2rem;
 }
 .new-releases h2.section-2 {
     font-weight: 600;
@@ -149,7 +152,7 @@ img.movie-bg {
     height: fit-content;
 }
 .movie-content h2.section {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2rem;
     margin-top: 2rem;
     color:#feba21;
@@ -158,7 +161,7 @@ img.movie-bg {
     margin-bottom: 1rem;
 }
 .movie-content h3.sub-section {
-    font-weight: 600;
+    font-weight: 500;
     font-size: .8rem;
     margin-bottom: 2rem;
     color:#feba21;
