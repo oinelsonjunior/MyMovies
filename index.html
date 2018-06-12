@@ -282,7 +282,7 @@
 			$.ajax({
 				type: "GET",
 				// Connect to omdb api
-				url: "https://www.omdbapi.com/?i="+id+"&apikey=132e68f8",
+				url: "https://www.omdbapi.com/?apikey=132e68f8&i="+id,
 				data: "{}",
 				dataType: "json",
 				success: function(data) {  
