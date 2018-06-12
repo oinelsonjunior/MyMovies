@@ -1,0 +1,38 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 2rem;
+}
+.carousel .container{
+    padding: 3rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    display: contents;
+}
+.carousel-item {
+    background-color: #343a40;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+}
+.carousel-item img.img-fluid {
+    display: block;
+    max-width:360px;
+    max-height:360px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+/* Set slider image fluid */
+img.slide-img {
+    filter:blur(20px);
+    opacity: 0.4;
+}
